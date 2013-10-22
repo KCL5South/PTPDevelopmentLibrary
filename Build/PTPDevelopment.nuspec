@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>PTPDevelopmentLibrary</id>
+        <version>1.0.0</version>
+        <authors>5 South</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>My package description.</description>
+    </metadata>
+    <files>
+        <file src="..\PTPDevelopmentLibrary.Expressions\bin\Release\PTPDevelopmentLibrary.Expressions.dll" target="lib\net35\PTPDevelopmentLibrary.Expressions.dll" />
+        <file src="..\PTPDevelopmentLibrary.Expressions\bin\Release\PTPDevelopmentLibrary.Expressions.XML" target="lib\net35\PTPDevelopmentLibrary.Expressions.XML" />
+        <file src="..\PTPDevelopmentLibrary\bin\Release\PTPDevelopmentLibrary.dll" target="lib\net40\PTPDevelopmentLibrary.dll" />
+        <file src="..\PTPDevelopmentLibrary.EntityGeneration\bin\Release\PTPDevelopmentLibrary.EntityGeneration.dll" target="lib\net40\PTPDevelopmentLibrary.EntityGeneration.dll" />
+        <file src="..\PTPDevelopmentLibrary.EntityGeneration\bin\Release\PTPDevelopmentLibrary.EntityGeneration.XML" target="lib\net40\PTPDevelopmentLibrary.EntityGeneration.XML" />
+        <file src="..\PTPDevelopmentLibrary\bin\Release\PTPDevelopmentLibrary.XML" target="lib\net40\PTPDevelopmentLibrary.XML" />
+        <file src="..\PTPDevelopmentLibrary.Composite\bin\Release\PTPDevelopmentLibrary.Composite.dll" target="lib\Prism2\PTPDevelopmentLibrary.Composite.dll" />
+        <file src="..\PTPDevelopmentLibrary.Composite\bin\Release\PTPDevelopmentLibrary.Composite.XML" target="lib\Prism2\PTPDevelopmentLibrary.Composite.XML" />
+        <file src="..\PTPDevelopmentLibrary\bin\Release\PTPDevelopmentLibrary.dll" target="lib\Prism2\PTPDevelopmentLibrary.dll" />
+        <file src="..\PTPDevelopmentLibrary\bin\Release\PTPDevelopmentLibrary.XML" target="lib\Prism2\PTPDevelopmentLibrary.XML" />
+        <file src="..\PTPDevelopmentLibrary.Composite.Silverlight\Bin\Release\PTPDevelopmentLibrary.Composite.Silverlight.dll" target="lib\Prism2SL\PTPDevelopmentLibrary.Composite.Silverlight.dll" />
+        <file src="..\PTPDevelopmentLibrary.Composite.Silverlight\Bin\Release\PTPDevelopmentLibrary.Composite.Silverlight.XML" target="lib\Prism2SL\PTPDevelopmentLibrary.Composite.Silverlight.XML" />
+        <file src="..\PTPDevelopmentLibrary.Silverlight\Bin\Release\PTPDevelopmentLibrary.Silverlight.dll" target="lib\Prism2SL\PTPDevelopmentLibrary.Silverlight.dll" />
+        <file src="..\PTPDevelopmentLibrary.Silverlight\Bin\Release\PTPDevelopmentLibrary.Silverlight.xml" target="lib\Prism2SL\PTPDevelopmentLibrary.Silverlight.xml" />
+        <file src="..\PTPDevelopmentLibrary.Composite.4\bin\Release\PTPDevelopmentLibrary.Composite.4.dll" target="lib\Prism4\PTPDevelopmentLibrary.Composite.4.dll" />
+        <file src="..\PTPDevelopmentLibrary.Composite.4\bin\Release\PTPDevelopmentLibrary.Composite.4.XML" target="lib\Prism4\PTPDevelopmentLibrary.Composite.4.XML" />
+        <file src="..\PTPDevelopmentLibrary\bin\Release\PTPDevelopmentLibrary.dll" target="lib\Prism4\PTPDevelopmentLibrary.dll" />
+        <file src="..\PTPDevelopmentLibrary\bin\Release\PTPDevelopmentLibrary.XML" target="lib\Prism4\PTPDevelopmentLibrary.XML" />
+        <file src="..\PTPDevelopmentLibrary.Composite.Silverlight.4\Bin\Release\PTPDevelopmentLibrary.Composite.Silverlight.4.dll" target="lib\Prism4SL\PTPDevelopmentLibrary.Composite.Silverlight.4.dll" />
+        <file src="..\PTPDevelopmentLibrary.Composite.Silverlight.4\Bin\Release\PTPDevelopmentLibrary.Composite.Silverlight.4.XML" target="lib\Prism4SL\PTPDevelopmentLibrary.Composite.Silverlight.4.XML" />
+        <file src="..\PTPDevelopmentLibrary.Silverlight\Bin\Release\PTPDevelopmentLibrary.Silverlight.dll" target="lib\Prism4SL\PTPDevelopmentLibrary.Silverlight.dll" />
+        <file src="..\PTPDevelopmentLibrary.Silverlight\Bin\Release\PTPDevelopmentLibrary.Silverlight.xml" target="lib\Prism4SL\PTPDevelopmentLibrary.Silverlight.xml" />
+    </files>
+</package>

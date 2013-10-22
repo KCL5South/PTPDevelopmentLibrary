@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A1972E52-C808-4E7F-8CBC-9331253563EA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PTPDevelopmentLibrary</RootNamespace>
+    <AssemblyName>PTPDevelopmentLibrary.Silverlight</AssemblyName>
+    <TargetFrameworkIdentifier>Silverlight</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <SilverlightApplication>false</SilverlightApplication>
+    <ValidateXaml>true</ValidateXaml>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <!-- This property group is only here to support building this project using the 
+       MSBuild 3.5 toolset. In order to work correctly with this older toolset, it needs 
+       to set the TargetFrameworkVersion to v3.5 -->
+  <PropertyGroup Condition="'$(MSBuildToolsVersion)' == '3.5'">
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>Bin\Release\PTPDevelopmentLibrary.Silverlight.xml</DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System.ComponentModel.DataAnnotations, Version=2.0.5.0, Culture=neutral, PublicKeyToken=ddd0da4d3e678217, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Windows" />
+    <Reference Include="system" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Windows.Browser" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\PTPDevelopmentLibrary\BaseAsyncResult.cs">
+      <Link>BaseAsyncResult.cs</Link>
+    </Compile>
+    <Compile Include="..\PTPDevelopmentLibrary\BaseAsyncResultGeneric.cs">
+      <Link>BaseAsyncResultGeneric.cs</Link>
+    </Compile>
+    <Compile Include="..\PTPDevelopmentLibrary\Constants\SerializationConstants.cs">
+      <Link>Constants\SerializationConstants.cs</Link>
+    </Compile>
+    <Compile Include="..\PTPDevelopmentLibrary\Controls\StateBinder.cs">
+      <Link>Controls\StateBinder.cs</Link>
+    </Compile>
+    <Compile Include="..\PTPDevelopmentLibrary\Framework\BaseModel.cs">
+      <Link>Framework\BaseModel.cs</Link>
+    </Compile>
+    <Compile Include="..\PTPDevelopmentLibrary\Framework\CollectionModel.cs">
+      <Link>Framework\CollectionModel.cs</Link>
+    </Compile>
+    <Compile Include="..\PTPDevelopmentLibrary\Framework\DictionaryModel.cs">
+      <Link>Framework\DictionaryModel.cs</Link>
+    </Compile>
+    <Compile Include="..\PTPDevelopmentLibrary\Framework\IBaseCollectionModel.cs">
+      <Link>Framework\IBaseCollectionModel.cs</Link>
+    </Compile>
+    <Compile Include="..\PTPDevelopmentLibrary\Framework\IBaseModel.cs">
+      <Link>Framework\IBaseModel.cs</Link>
+    </Compile>
+    <Compile Include="..\PTPDevelopmentLibrary\Framework\IPresenter.cs">
+      <Link>Framework\IPresenter.cs</Link>
+    </Compile>
+    <Compile Include="..\PTPDevelopmentLibrary\Framework\Presenter.cs">
+      <Link>Framework\Presenter.cs</Link>
+    </Compile>
+    <Compile Include="..\PTPDevelopmentLibrary\Permissions\PermissionClause.cs">
+      <Link>Permissions\PermissionClause.cs</Link>
+    </Compile>
+    <Compile Include="..\PTPDevelopmentLibrary\Permissions\PermissionClauseOperatorAssociativities.cs">
+      <Link>Permissions\PermissionClauseOperatorAssociativities.cs</Link>
+    </Compile>
+    <Compile Include="..\PTPDevelopmentLibrary\Permissions\PermissionClauseOperators.cs">
+      <Link>Permissions\PermissionClauseOperators.cs</Link>
+    </Compile>
+    <Compile Include="..\PTPDevelopmentLibrary\Permissions\PermissionClauseParser.cs">
+      <Link>Permissions\PermissionClauseParser.cs</Link>
+    </Compile>
+    <Compile Include="..\PTPDevelopmentLibrary\Permissions\PermissionClauseParserException.cs">
+      <Link>Permissions\PermissionClauseParserException.cs</Link>
+    </Compile>
+    <Compile Include="..\PTPDevelopmentLibrary\Permissions\PermissionsClauseParserSyntaxException.cs">
+      <Link>Permissions\PermissionsClauseParserSyntaxException.cs</Link>
+    </Compile>
+    <Compile Include="..\PTPDevelopmentLibrary\Validation\DefaultValidation\DataAnnotationsValidationManager.cs">
+      <Link>Validation\DefaultValidation\DataAnnotationsValidationManager.cs</Link>
+    </Compile>
+    <Compile Include="..\PTPDevelopmentLibrary\Validation\DefaultValidation\DataAnnotationsValidator.cs">
+      <Link>Validation\DefaultValidation\DataAnnotationsValidator.cs</Link>
+    </Compile>
+    <Compile Include="..\PTPDevelopmentLibrary\Validation\DefaultValidation\DefaultValidateModelAsyncResult.cs">
+      <Link>Validation\DefaultValidation\DefaultValidateModelAsyncResult.cs</Link>
+    </Compile>
+    <Compile Include="..\PTPDevelopmentLibrary\Validation\DefaultValidation\DefaultValidatePropertyAsyncResult.cs">
+      <Link>Validation\DefaultValidation\DefaultValidatePropertyAsyncResult.cs</Link>
+    </Compile>
+    <Compile Include="..\PTPDevelopmentLibrary\Validation\DefaultValidation\IAsyncValidationContext.cs">
+      <Link>Validation\DefaultValidation\IAsyncValidationContext.cs</Link>
+    </Compile>
+    <Compile Include="..\PTPDevelopmentLibrary\Validation\IValidationInteraction.cs">
+      <Link>Validation\IValidationInteraction.cs</Link>
+    </Compile>
+    <Compile Include="..\PTPDevelopmentLibrary\Validation\IValidationManager.cs">
+      <Link>Validation\IValidationManager.cs</Link>
+    </Compile>
+    <Compile Include="..\PTPDevelopmentLibrary\Validation\IValidator.cs">
+      <Link>Validation\IValidator.cs</Link>
+    </Compile>
+    <Compile Include="..\PTPDevelopmentLibrary\Validation\ValidateModelAsyncResult.cs">
+      <Link>Validation\ValidateModelAsyncResult.cs</Link>
+    </Compile>
+    <Compile Include="..\PTPDevelopmentLibrary\Validation\ValidatePropertyAsyncResult.cs">
+      <Link>Validation\ValidatePropertyAsyncResult.cs</Link>
+    </Compile>
+    <Compile Include="..\PTPDevelopmentLibrary\Validation\ValidationErrorCollection.cs">
+      <Link>Validation\ValidationErrorCollection.cs</Link>
+    </Compile>
+    <Compile Include="..\PTPDevelopmentLibrary\Validation\ValidationStates.cs">
+      <Link>Validation\ValidationStates.cs</Link>
+    </Compile>
+    <Compile Include="..\PTPDevelopmentLibrary\Validation\Validator.cs">
+      <Link>Validation\Validator.cs</Link>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Silverlight\$(SilverlightVersion)\Microsoft.Silverlight.CSharp.targets" />
+  <Import Project="$(MSBuildThisFileDirectory)\..\build\nuget.targets"/>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{A1591282-1198-4647-A2B1-27E5FF5F6F3B}">
+        <SilverlightProjectProperties />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

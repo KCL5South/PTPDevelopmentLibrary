@@ -1,0 +1,92 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PTPDevelopmentLibrary", "PTPDevelopmentLibrary\PTPDevelopmentLibrary.csproj", "{B30DC887-21DF-415E-9C6F-1D45F2356476}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PTPDevelopmentLibrary.Silverlight", "PTPDevelopmentLibrary.Silverlight\PTPDevelopmentLibrary.Silverlight.csproj", "{A1972E52-C808-4E7F-8CBC-9331253563EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PTPDevelopmentLibrary.EntityGeneration", "PTPDevelopmentLibrary.EntityGeneration\PTPDevelopmentLibrary.EntityGeneration.csproj", "{1AAAAA82-3A35-4FCE-B6DF-9B1AB017521E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PTPDevelopmentLibrary.Composite", "PTPDevelopmentLibrary.Composite\PTPDevelopmentLibrary.Composite.csproj", "{44802FBE-140D-465C-A62F-24AFC7DD7CF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PTPDevelopmentLibrary.Composite.Silverlight", "PTPDevelopmentLibrary.Composite.Silverlight\PTPDevelopmentLibrary.Composite.Silverlight.csproj", "{1825870F-132C-45CE-99BB-5AFD9C7F14FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PTPDevelopmentLibrary.Composite.4", "PTPDevelopmentLibrary.Composite.4\PTPDevelopmentLibrary.Composite.4.csproj", "{C193DB7B-6B5C-4DBB-9FF1-3F1BF03AD7D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PTPDevelopmentLibrary.Composite.Silverlight.4", "PTPDevelopmentLibrary.Composite.Silverlight.4\PTPDevelopmentLibrary.Composite.Silverlight.4.csproj", "{701C1CF0-3DD7-4322-B172-C716EE4CFA9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PTPDevelopmentLibrary.Expressions", "PTPDevelopmentLibrary.Expressions\PTPDevelopmentLibrary.Expressions.csproj", "{7AD51FAB-9AE2-49C8-A0C2-36331D07FD61}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://packers:8080/tfs/internal
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = PTPDevelopmentLibrary.Composite.Silverlight\\PTPDevelopmentLibrary.Composite.Silverlight.csproj
+		SccProjectName1 = PTPDevelopmentLibrary.Composite.Silverlight
+		SccLocalPath1 = PTPDevelopmentLibrary.Composite.Silverlight
+		SccProjectUniqueName2 = PTPDevelopmentLibrary.Composite\\PTPDevelopmentLibrary.Composite.csproj
+		SccProjectName2 = PTPDevelopmentLibrary.Composite
+		SccLocalPath2 = PTPDevelopmentLibrary.Composite
+		SccProjectUniqueName3 = PTPDevelopmentLibrary.EntityGeneration\\PTPDevelopmentLibrary.EntityGeneration.csproj
+		SccProjectName3 = PTPDevelopmentLibrary.EntityGeneration
+		SccLocalPath3 = PTPDevelopmentLibrary.EntityGeneration
+		SccProjectUniqueName4 = PTPDevelopmentLibrary.Silverlight\\PTPDevelopmentLibrary.Silverlight.csproj
+		SccProjectName4 = PTPDevelopmentLibrary.Silverlight
+		SccLocalPath4 = PTPDevelopmentLibrary.Silverlight
+		SccProjectUniqueName5 = PTPDevelopmentLibrary\\PTPDevelopmentLibrary.csproj
+		SccProjectName5 = PTPDevelopmentLibrary
+		SccLocalPath5 = PTPDevelopmentLibrary
+		SccProjectUniqueName6 = PTPDevelopmentLibrary.Composite.4\\PTPDevelopmentLibrary.Composite.4.csproj
+		SccProjectName6 = PTPDevelopmentLibrary.Composite.4
+		SccLocalPath6 = PTPDevelopmentLibrary.Composite.4
+		SccProjectUniqueName7 = PTPDevelopmentLibrary.Composite.Silverlight.4\\PTPDevelopmentLibrary.Composite.Silverlight.4.csproj
+		SccProjectName7 = PTPDevelopmentLibrary.Composite.Silverlight.4
+		SccLocalPath7 = PTPDevelopmentLibrary.Composite.Silverlight.4
+		SccProjectUniqueName8 = PTPDevelopmentLibrary.Expressions\\PTPDevelopmentLibrary.Expressions.csproj
+		SccProjectName8 = PTPDevelopmentLibrary.Expressions
+		SccLocalPath8 = PTPDevelopmentLibrary.Expressions
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B30DC887-21DF-415E-9C6F-1D45F2356476}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B30DC887-21DF-415E-9C6F-1D45F2356476}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B30DC887-21DF-415E-9C6F-1D45F2356476}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B30DC887-21DF-415E-9C6F-1D45F2356476}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1972E52-C808-4E7F-8CBC-9331253563EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1972E52-C808-4E7F-8CBC-9331253563EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1972E52-C808-4E7F-8CBC-9331253563EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1972E52-C808-4E7F-8CBC-9331253563EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AAAAA82-3A35-4FCE-B6DF-9B1AB017521E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AAAAA82-3A35-4FCE-B6DF-9B1AB017521E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AAAAA82-3A35-4FCE-B6DF-9B1AB017521E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AAAAA82-3A35-4FCE-B6DF-9B1AB017521E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44802FBE-140D-465C-A62F-24AFC7DD7CF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44802FBE-140D-465C-A62F-24AFC7DD7CF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44802FBE-140D-465C-A62F-24AFC7DD7CF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44802FBE-140D-465C-A62F-24AFC7DD7CF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1825870F-132C-45CE-99BB-5AFD9C7F14FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1825870F-132C-45CE-99BB-5AFD9C7F14FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1825870F-132C-45CE-99BB-5AFD9C7F14FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1825870F-132C-45CE-99BB-5AFD9C7F14FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C193DB7B-6B5C-4DBB-9FF1-3F1BF03AD7D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C193DB7B-6B5C-4DBB-9FF1-3F1BF03AD7D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C193DB7B-6B5C-4DBB-9FF1-3F1BF03AD7D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C193DB7B-6B5C-4DBB-9FF1-3F1BF03AD7D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{701C1CF0-3DD7-4322-B172-C716EE4CFA9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{701C1CF0-3DD7-4322-B172-C716EE4CFA9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{701C1CF0-3DD7-4322-B172-C716EE4CFA9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{701C1CF0-3DD7-4322-B172-C716EE4CFA9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AD51FAB-9AE2-49C8-A0C2-36331D07FD61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AD51FAB-9AE2-49C8-A0C2-36331D07FD61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AD51FAB-9AE2-49C8-A0C2-36331D07FD61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AD51FAB-9AE2-49C8-A0C2-36331D07FD61}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
