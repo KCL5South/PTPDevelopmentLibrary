@@ -2,6 +2,7 @@
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
 
 	<PropertyGroup>
+		<Publish Condition=" '$(Publish)' == '' ">False</Publish>
 		<Configuration Condition=" '$(Configuration)' == '' ">DEBUG</Configuration>
 		<AssemblyMajorVersion Condition=" '$(AssemblyMajorVersion)' == '' ">1</AssemblyMajorVersion>
 		<AssemblyMinorVersion Condition=" '$(AssemblyMinorVersion)' == '' ">0</AssemblyMinorVersion>
@@ -21,6 +22,7 @@
 
 	<Target Name="Build">
 		<MSBuild Projects="@(ProjectsToBuild)" />
+		<CallTarget Targets="Deploy" Condition=" '$(Publish)' == 'True' " />
 	</Target>
 
 	<Target Name="PackNuGet">
