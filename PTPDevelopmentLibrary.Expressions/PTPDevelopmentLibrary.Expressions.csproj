@@ -53,4 +53,11 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildThisFileDirectory)\..\build\nuget.targets"/>
+  <Target Name="AfterBuild">
+    <PropertyGroup>
+      <TempOutput>$([System.IO.Path]::GetFullPath($(MSBuildProjectDirectory)\..\Build\Output))</TempOutput>
+    </PropertyGroup>
+    <MakeDir Directories="..\Build\Output" Condition="!Exists($(TempOutput))" />
+    <Copy SourceFiles="$(OutputPath)$(AssemblyName).dll" DestinationFiles="..\Build\Output\$(AssemblyName).dll" />
+  </Target>
 </Project>
