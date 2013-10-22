@@ -17,7 +17,7 @@
 		<ProjectsToBuild Include="NuGet.targets"/>
 		<ProjectsToBuild Include="UpdateAssemblyInfo.targets"/>
 		<ProjectsToBuild Include="..\PTPDevelopmentLibrary.sln"/>
-		<NuSpec Include="PTPDevelopmentLibrary.nuspec"/>
+		<NuSpec Include="PTPDevelopment.nuspec"/>
 	</ItemGroup>	
 
 	<Target Name="Build">
