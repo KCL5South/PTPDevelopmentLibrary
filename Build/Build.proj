@@ -44,5 +44,5 @@
 		<Delete Files="@(NuPkg)" />
 	</Target>
 
-	<Target Name="Deploy" DependsOnTargets="Build; PackNuGet; PushNuGet; CleanNuGet" />
+	<Target Name="Deploy" DependsOnTargets="PackNuGet; PushNuGet; CleanNuGet" />
 </Project>
